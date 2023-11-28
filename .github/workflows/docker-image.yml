@@ -28,7 +28,7 @@ jobs:
     - name: Build docker image
       run: |
         docker build -t eperdomoa/docker-graphql:0.0.2 .
-        docker build -t eperdomoa/docker-latest:latest .
+        docker build -t eperdomoa/docker-graphql:latest .
 
     - name: Push docker image
       run: |
